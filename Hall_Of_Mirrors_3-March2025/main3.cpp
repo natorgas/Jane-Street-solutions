@@ -331,7 +331,7 @@ void find_solution_one_laser(int pairs_index, Node grid[ROWS][COLS], int row, in
       for(int step : step_sizes){
         if(col + step < 11 && mirror_placable(&grid[row][col+step])){
           if(grid[row][col+step].mirror == '0'){
-            grid[row][col+step].mirror = '/';
+            grid[row][col+step].mirror = '/';
             find_solution_one_laser(pairs_index, grid, row, col+step, value / step, initial_laser, inital_value, "left", pairs);
             grid[row][col+step].mirror = '\\';
             find_solution_one_laser(pairs_index, grid, row, col+step, value / step, initial_laser, inital_value, "left", pairs);
