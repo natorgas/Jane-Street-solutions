@@ -176,7 +176,7 @@ vector<int> allowed_step_sizes(int n){
 
 void find_solution_one_laser(int pairs_index, Node grid[ROWS][COLS], int row, int col, int value, Node *initial_laser, int inital_value, string coming_from, vector<vector<int>> pairs){
   //cout << "searching for value " << inital_value << " in " << pairs[pairs_index][0] << "," << pairs[pairs_index][1] << endl;
-  //cout << "currently at node " << row << ", " << col << ":" << endl;
+  //cout << "currently at node " << row << ", " << col << ":" <<
 
   // IF CURRENT NODE IS LASER:
 
