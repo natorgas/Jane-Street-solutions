@@ -51,7 +51,7 @@ std::vector<long long> Grid::numberInRow(int row){
   }
   for(int i = index; i >= 0; --i){
     if(!grid[row][i].tile){
-      num += grid[row][i].val*coeff;grid.c
+      num += grid[row][i].val*coeff;
       coeff *= 10;
     }
     else{
